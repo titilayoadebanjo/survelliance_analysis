@@ -33,6 +33,34 @@ The pipeline:
 python src/main.py
 ```
 
+# Features
+
+- Data extraction
+- Data quality validation
+- Reporting delay analysis
+- Outbreak identification
+- Automated reporting
+- Airflow orchestration example
+- Docker containerisation
+- Unit testing
+
+## Technologies
+
+- Python
+- Pandas
+- YAML
+- Docker
+- Airflow
+
+## Structure
+
+config/
+dags/
+data/
+src/
+tests/
+output/
+
 ## Orchestration
 
 A sample Airflow DAG is provided in:
@@ -54,3 +82,10 @@ The solution can be:
 ```bash
 pytest
 ```
+
+## Future Enhancements
+
+- OpenShift deployment manifests
+- ArgoCD integration
+- Email notifications
+- Data quality monitoring dashboard

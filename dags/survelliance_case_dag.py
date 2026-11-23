@@ -19,7 +19,7 @@ with DAG(
 
     catchup=False,
 
-    tags=["ukhsa", "surveillance"]
+    tags=["personal", "surveillance"]
 
 ) as dag:
 
